@@ -29,6 +29,7 @@ const useAircraftDetails = () => {
     const tripFetch = axios.get(tripUrl);
     Promise.all([aircraftFetch, maintainanceTypeFetch, maintainanceEventFetch, maintainanceScheduleFetch, tripFetch])
       .then((values) => {
+        console.log(values);
         setAircrafts(values[0].data);
         setMaintainanceTypes(values[1].data);
         setMaintainaceEvents(values[2].data);
@@ -46,7 +47,13 @@ const useAircraftDetails = () => {
     const scheduledTrips = trips.filter((ac) => ac.aircraft_id === aircraft.id);
     let isConflicting = false;
     for (const trip of scheduledTrips) {
-      if (date_range[0].isBefore(dayjs(trip.end_date)) && dayjs(trip.start_date).isBefore(date_range[1])) {
+      if (
+        (date_range[0].isBefore(dayjs(trip.end_date)) && dayjs(trip.start_date).isBefore(date_range[1])) ||
+        date_range[0].isSame(dayjs(trip.start_date)) ||
+        date_range[0].isSame(dayjs(trip.end_date)) ||
+        date_range[1].isSame(dayjs(trip.start_date)) ||
+        date_range[1].isSame(dayjs(trip.end_date))
+      ) {
         isConflicting = true;
         break;
       }
@@ -58,7 +65,13 @@ const useAircraftDetails = () => {
     const maintainanceSchedule = maintainanceSchedules.filter((ac) => ac.aircraft_id === aircraft.id);
     let isScheduledForMaintainance = false;
     for (const schedule of maintainanceSchedule) {
-      if (date_range[0].isBefore(dayjs(schedule.end_date)) && dayjs(schedule.start_date).isBefore(date_range[1])) {
+      if (
+        (date_range[0].isBefore(dayjs(schedule.end_date)) && dayjs(schedule.start_date).isBefore(date_range[1])) ||
+        date_range[0].isSame(dayjs(schedule.start_date)) ||
+        date_range[0].isSame(dayjs(schedule.end_date)) ||
+        date_range[1].isSame(dayjs(schedule.start_date)) ||
+        date_range[1].isSame(dayjs(schedule.end_date))
+      ) {
         isScheduledForMaintainance = true;
         break;
       }
@@ -146,7 +159,6 @@ const useAircraftDetails = () => {
 
   // Assumption: All data returned by backend is upcoming data.
   const getAircraftAvailability = (formData: SearchFormData): AircraftAvailability[] => {
-    debugger;
     const aircraftsAvailability: AircraftAvailability[] = [];
     aircrafts.forEach((aircraft) => {
       const isConflictingTrip = getIsConflictingTrip(aircraft, formData.date_range);
@@ -160,8 +172,7 @@ const useAircraftDetails = () => {
       aircraftsAvailability.push({
         id: aircraft.id,
         tail_number: aircraft.tail_number,
-        status:
-          isConflictingTrip || isScheduledForMaintainance || willAircraftBeGrounded ? "UNAVAILABLE" : "AVAILABLE",
+        status: isConflictingTrip || isScheduledForMaintainance || willAircraftBeGrounded ? "UNAVAILABLE" : "AVAILABLE",
       });
     });
     return aircraftsAvailability;

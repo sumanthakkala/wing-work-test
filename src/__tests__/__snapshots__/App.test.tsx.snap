@@ -1,0 +1,1043 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders dashboard 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <div>
+      <form
+        class="ant-form ant-form-horizontal css-dev-only-do-not-override-htwhyh"
+        id="trip_search"
+      >
+        <div
+          class="ant-row css-dev-only-do-not-override-htwhyh"
+          style="margin-left: -12px; margin-right: -12px;"
+        >
+          <div
+            class="ant-col ant-col-8 css-dev-only-do-not-override-htwhyh"
+            style="padding-left: 12px; padding-right: 12px;"
+          >
+            <div
+              class="ant-form-item css-dev-only-do-not-override-htwhyh"
+            >
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-htwhyh"
+              >
+                <div
+                  class="ant-col ant-form-item-control css-dev-only-do-not-override-htwhyh"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <div
+                        class="ant-picker ant-picker-range css-dev-only-do-not-override-htwhyh"
+                      >
+                        <div
+                          class="ant-picker-input ant-picker-input-active"
+                        >
+                          <input
+                            autocomplete="off"
+                            id="trip_search_date_range"
+                            placeholder="Start date"
+                            readonly=""
+                            size="12"
+                            value=""
+                          />
+                        </div>
+                        <div
+                          class="ant-picker-range-separator"
+                        >
+                          <span
+                            aria-label="to"
+                            class="ant-picker-separator"
+                          >
+                            <span
+                              aria-label="swap-right"
+                              class="anticon anticon-swap-right"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="swap-right"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="0 0 1024 1024"
+                                width="1em"
+                              >
+                                <path
+                                  d="M873.1 596.2l-164-208A32 32 0 00684 376h-64.8c-6.7 0-10.4 7.7-6.3 13l144.3 183H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h695.9c26.8 0 41.7-30.8 25.2-51.8z"
+                                />
+                              </svg>
+                            </span>
+                          </span>
+                        </div>
+                        <div
+                          class="ant-picker-input"
+                        >
+                          <input
+                            autocomplete="off"
+                            placeholder="End date"
+                            readonly=""
+                            size="12"
+                            value=""
+                          />
+                        </div>
+                        <div
+                          class="ant-picker-active-bar"
+                          style="left: 0px; width: 0px; position: absolute;"
+                        />
+                        <span
+                          class="ant-picker-suffix"
+                        >
+                          <span
+                            aria-label="calendar"
+                            class="anticon anticon-calendar"
+                            role="img"
+                          >
+                            <svg
+                              aria-hidden="true"
+                              data-icon="calendar"
+                              fill="currentColor"
+                              focusable="false"
+                              height="1em"
+                              viewBox="64 64 896 896"
+                              width="1em"
+                            >
+                              <path
+                                d="M880 184H712v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H384v-64c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v64H144c-17.7 0-32 14.3-32 32v664c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V216c0-17.7-14.3-32-32-32zm-40 656H184V460h656v380zM184 392V256h128v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h256v48c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-48h128v136H184z"
+                              />
+                            </svg>
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-col ant-col-8 css-dev-only-do-not-override-htwhyh"
+            style="padding-left: 12px; padding-right: 12px;"
+          >
+            <div
+              class="ant-form-item css-dev-only-do-not-override-htwhyh"
+            >
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-htwhyh"
+              >
+                <div
+                  class="ant-col ant-form-item-control css-dev-only-do-not-override-htwhyh"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <div
+                        class="ant-input-number-group-wrapper css-dev-only-do-not-override-htwhyh"
+                      >
+                        <div
+                          class="ant-input-number-wrapper ant-input-number-group css-dev-only-do-not-override-htwhyh"
+                        >
+                          <div
+                            class="ant-input-number ant-input-number-in-form-item css-dev-only-do-not-override-htwhyh"
+                          >
+                            <div
+                              class="ant-input-number-handler-wrap"
+                            >
+                              <span
+                                aria-disabled="false"
+                                aria-label="Increase Value"
+                                class="ant-input-number-handler ant-input-number-handler-up"
+                                role="button"
+                                unselectable="on"
+                              >
+                                <span
+                                  aria-label="up"
+                                  class="anticon anticon-up ant-input-number-handler-up-inner"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="up"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                              <span
+                                aria-disabled="false"
+                                aria-label="Decrease Value"
+                                class="ant-input-number-handler ant-input-number-handler-down"
+                                role="button"
+                                unselectable="on"
+                              >
+                                <span
+                                  aria-label="down"
+                                  class="anticon anticon-down ant-input-number-handler-down-inner"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="down"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </div>
+                            <div
+                              class="ant-input-number-input-wrap"
+                            >
+                              <input
+                                autocomplete="off"
+                                class="ant-input-number-input"
+                                id="trip_search_landing_count"
+                                placeholder="Number of landings"
+                                role="spinbutton"
+                                step="1"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="ant-input-number-group-addon"
+                          >
+                            <span
+                              aria-label="number"
+                              class="anticon anticon-number"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="number"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M872 394c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8H708V152c0-4.4-3.6-8-8-8h-64c-4.4 0-8 3.6-8 8v166H400V152c0-4.4-3.6-8-8-8h-64c-4.4 0-8 3.6-8 8v166H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h168v236H152c-4.4 0-8 3.6-8 8v60c0 4.4 3.6 8 8 8h168v166c0 4.4 3.6 8 8 8h64c4.4 0 8-3.6 8-8V706h228v166c0 4.4 3.6 8 8 8h64c4.4 0 8-3.6 8-8V706h164c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8H708V394h164zM628 630H400V394h228v236z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-col ant-col-8 css-dev-only-do-not-override-htwhyh"
+            style="padding-left: 12px; padding-right: 12px;"
+          >
+            <div
+              class="ant-form-item css-dev-only-do-not-override-htwhyh"
+            >
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-htwhyh"
+              >
+                <div
+                  class="ant-col ant-form-item-control css-dev-only-do-not-override-htwhyh"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <div
+                        class="ant-input-number-group-wrapper css-dev-only-do-not-override-htwhyh"
+                      >
+                        <div
+                          class="ant-input-number-wrapper ant-input-number-group css-dev-only-do-not-override-htwhyh"
+                        >
+                          <div
+                            class="ant-input-number ant-input-number-in-form-item css-dev-only-do-not-override-htwhyh"
+                          >
+                            <div
+                              class="ant-input-number-handler-wrap"
+                            >
+                              <span
+                                aria-disabled="false"
+                                aria-label="Increase Value"
+                                class="ant-input-number-handler ant-input-number-handler-up"
+                                role="button"
+                                unselectable="on"
+                              >
+                                <span
+                                  aria-label="up"
+                                  class="anticon anticon-up ant-input-number-handler-up-inner"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="up"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M890.5 755.3L537.9 269.2c-12.8-17.6-39-17.6-51.7 0L133.5 755.3A8 8 0 00140 768h75c5.1 0 9.9-2.5 12.9-6.6L512 369.8l284.1 391.6c3 4.1 7.8 6.6 12.9 6.6h75c6.5 0 10.3-7.4 6.5-12.7z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                              <span
+                                aria-disabled="false"
+                                aria-label="Decrease Value"
+                                class="ant-input-number-handler ant-input-number-handler-down"
+                                role="button"
+                                unselectable="on"
+                              >
+                                <span
+                                  aria-label="down"
+                                  class="anticon anticon-down ant-input-number-handler-down-inner"
+                                  role="img"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    data-icon="down"
+                                    fill="currentColor"
+                                    focusable="false"
+                                    height="1em"
+                                    viewBox="64 64 896 896"
+                                    width="1em"
+                                  >
+                                    <path
+                                      d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"
+                                    />
+                                  </svg>
+                                </span>
+                              </span>
+                            </div>
+                            <div
+                              class="ant-input-number-input-wrap"
+                            >
+                              <input
+                                autocomplete="off"
+                                class="ant-input-number-input"
+                                id="trip_search_flying_time"
+                                placeholder="Flying hours"
+                                role="spinbutton"
+                                step="1"
+                                value=""
+                              />
+                            </div>
+                          </div>
+                          <div
+                            class="ant-input-number-group-addon"
+                          >
+                            <span
+                              aria-label="hourglass"
+                              class="anticon anticon-hourglass"
+                              role="img"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                data-icon="hourglass"
+                                fill="currentColor"
+                                focusable="false"
+                                height="1em"
+                                viewBox="64 64 896 896"
+                                width="1em"
+                              >
+                                <path
+                                  d="M742 318V184h86c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H196c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h86v134c0 81.5 42.4 153.2 106.4 194-64 40.8-106.4 112.5-106.4 194v134h-86c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h632c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8h-86V706c0-81.5-42.4-153.2-106.4-194 64-40.8 106.4-112.5 106.4-194zm-72 388v134H354V706c0-42.2 16.4-81.9 46.3-111.7C430.1 564.4 469.8 548 512 548s81.9 16.4 111.7 46.3C653.6 624.1 670 663.8 670 706zm0-388c0 42.2-16.4 81.9-46.3 111.7C593.9 459.6 554.2 476 512 476s-81.9-16.4-111.7-46.3A156.63 156.63 0 01354 318V184h316v134z"
+                                />
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-row css-dev-only-do-not-override-htwhyh"
+        >
+          <button
+            class="ant-btn css-dev-only-do-not-override-htwhyh ant-btn-primary ant-btn-block"
+            type="submit"
+          >
+            <span>
+              Search
+            </span>
+          </button>
+        </div>
+      </form>
+      <div
+        class="ant-divider css-dev-only-do-not-override-htwhyh ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
+        role="separator"
+      >
+        <span
+          class="ant-divider-inner-text"
+        >
+          Upcoming Trips
+        </span>
+      </div>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-htwhyh"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-htwhyh"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                >
+                  <table
+                    style="table-layout: auto;"
+                  >
+                    <colgroup />
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Id
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Aircraft Id
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Start Date
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          End Date
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Flying Time
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Landing Count
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          1
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          1
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2023-03-10
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2023-03-11
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          25
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          10
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          1
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2023-03-15
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2023-03-16
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          20
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          8
+                        </td>
+                      </tr>
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          4
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          1
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2023-03-25
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2023-03-26
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          10
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          4
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="ant-pagination ant-table-pagination ant-table-pagination-right css-dev-only-do-not-override-htwhyh"
+            >
+              <li
+                aria-disabled="true"
+                class="ant-pagination-prev ant-pagination-disabled"
+                title="Previous Page"
+              >
+                <button
+                  class="ant-pagination-item-link"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    aria-label="left"
+                    class="anticon anticon-left"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="left"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </li>
+              <li
+                class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+                tabindex="0"
+                title="1"
+              >
+                <a
+                  rel="nofollow"
+                >
+                  1
+                </a>
+              </li>
+              <li
+                aria-disabled="true"
+                class="ant-pagination-next ant-pagination-disabled"
+                title="Next Page"
+              >
+                <button
+                  class="ant-pagination-item-link"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    aria-label="right"
+                    class="anticon anticon-right"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="right"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-divider css-dev-only-do-not-override-htwhyh ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
+        role="separator"
+      >
+        <span
+          class="ant-divider-inner-text"
+        >
+          Aircrafts
+        </span>
+      </div>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-htwhyh"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-htwhyh"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                >
+                  <table
+                    style="table-layout: auto;"
+                  >
+                    <colgroup />
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Id
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Tail Number
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Current Hobbs
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Current Landings
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Last Maintainance Date
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          1
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          N123AA
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          950
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          480
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2023-03-01
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="ant-pagination ant-table-pagination ant-table-pagination-right css-dev-only-do-not-override-htwhyh"
+            >
+              <li
+                aria-disabled="true"
+                class="ant-pagination-prev ant-pagination-disabled"
+                title="Previous Page"
+              >
+                <button
+                  class="ant-pagination-item-link"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    aria-label="left"
+                    class="anticon anticon-left"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="left"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </li>
+              <li
+                class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+                tabindex="0"
+                title="1"
+              >
+                <a
+                  rel="nofollow"
+                >
+                  1
+                </a>
+              </li>
+              <li
+                aria-disabled="true"
+                class="ant-pagination-next ant-pagination-disabled"
+                title="Next Page"
+              >
+                <button
+                  class="ant-pagination-item-link"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    aria-label="right"
+                    class="anticon anticon-right"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="right"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-divider css-dev-only-do-not-override-htwhyh ant-divider-horizontal ant-divider-with-text ant-divider-with-text-left"
+        role="separator"
+      >
+        <span
+          class="ant-divider-inner-text"
+        >
+          Maintainance Schedules
+        </span>
+      </div>
+      <div
+        class="ant-table-wrapper css-dev-only-do-not-override-htwhyh"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-htwhyh"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <div
+              class="ant-table"
+            >
+              <div
+                class="ant-table-container"
+              >
+                <div
+                  class="ant-table-content"
+                >
+                  <table
+                    style="table-layout: auto;"
+                  >
+                    <colgroup />
+                    <thead
+                      class="ant-table-thead"
+                    >
+                      <tr>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Id
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Aircraft Id
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Maintainance Type Id
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          Start Date
+                        </th>
+                        <th
+                          class="ant-table-cell"
+                          scope="col"
+                        >
+                          End Date
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      class="ant-table-tbody"
+                    >
+                      <tr
+                        class="ant-table-row ant-table-row-level-0"
+                      >
+                        <td
+                          class="ant-table-cell"
+                        >
+                          1
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          1
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          1
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2023-03-20
+                        </td>
+                        <td
+                          class="ant-table-cell"
+                        >
+                          2023-03-23
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <ul
+              class="ant-pagination ant-table-pagination ant-table-pagination-right css-dev-only-do-not-override-htwhyh"
+            >
+              <li
+                aria-disabled="true"
+                class="ant-pagination-prev ant-pagination-disabled"
+                title="Previous Page"
+              >
+                <button
+                  class="ant-pagination-item-link"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    aria-label="left"
+                    class="anticon anticon-left"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="left"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 000 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </li>
+              <li
+                class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+                tabindex="0"
+                title="1"
+              >
+                <a
+                  rel="nofollow"
+                >
+                  1
+                </a>
+              </li>
+              <li
+                aria-disabled="true"
+                class="ant-pagination-next ant-pagination-disabled"
+                title="Next Page"
+              >
+                <button
+                  class="ant-pagination-item-link"
+                  disabled=""
+                  tabindex="-1"
+                  type="button"
+                >
+                  <span
+                    aria-label="right"
+                    class="anticon anticon-right"
+                    role="img"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      data-icon="right"
+                      fill="currentColor"
+                      focusable="false"
+                      height="1em"
+                      viewBox="64 64 896 896"
+                      width="1em"
+                    >
+                      <path
+                        d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
