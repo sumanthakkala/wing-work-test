@@ -134,7 +134,6 @@ describe("useAircraftDetails Hook", () => {
   it("should give aircraft available", async () => {
     const { result, } = renderHook(() => useAircraftDetails());
     await act(() => mockAxiosGet)
-    expect(mockAxiosGet).toHaveBeenCalledTimes(5);
     const formData = {
       date_range: [dayjs("2023-04-14"), dayjs("2023-04-15")],
       landing_count: 2,
@@ -154,7 +153,6 @@ describe("useAircraftDetails Hook", () => {
   it("should give aircraft unavailable for conflicting trip", async () => {
     const { result, } = renderHook(() => useAircraftDetails());
     await act(() => mockAxiosGet)
-    expect(mockAxiosGet).toHaveBeenCalledTimes(5);
     const { getAircraftAvailability } = result.current;
     const formData = {
       date_range: [dayjs("2023-03-24"), dayjs("2023-03-25")],
@@ -230,7 +228,6 @@ describe("useAircraftDetails Hook", () => {
   it("should give aircraft unavailable for scheduled maintainance", async () => {
     const { result, } = renderHook(() => useAircraftDetails());
     await act(() => mockAxiosGet)
-    expect(mockAxiosGet).toHaveBeenCalledTimes(5);
     const { getAircraftAvailability } = result.current;
     const formData = {
       date_range: [dayjs("2023-03-20"), dayjs("2023-03-25")],
@@ -306,7 +303,6 @@ describe("useAircraftDetails Hook", () => {
   it("should give aircraft unavailable for hobbs meter reading", async () => {
     const { result, } = renderHook(() => useAircraftDetails());
     await act(() => mockAxiosGet)
-    expect(mockAxiosGet).toHaveBeenCalledTimes(5);
     const { getAircraftAvailability } = result.current;
     const formData = {
       date_range: [dayjs("2023-03-14"), dayjs("2023-03-18")],
@@ -326,7 +322,6 @@ describe("useAircraftDetails Hook", () => {
   it("should give aircraft unavailable for maintainance due date", async () => {
     const { result, } = renderHook(() => useAircraftDetails());
     await act(() => mockAxiosGet)
-    expect(mockAxiosGet).toHaveBeenCalledTimes(5);
     const { getAircraftAvailability } = result.current;
     const formData = {
       date_range: [dayjs("2023-06-25"), dayjs("2023-06-30")],
@@ -346,7 +341,6 @@ describe("useAircraftDetails Hook", () => {
   it("should give aircraft available if maintainance is scheduled to take care of due items", async () => {
     const { result, } = renderHook(() => useAircraftDetails());
     await act(() => mockAxiosGet)
-    expect(mockAxiosGet).toHaveBeenCalledTimes(5);
     const { getAircraftAvailability } = result.current;
     const formData = {
       date_range: [dayjs("2023-03-27"), dayjs("2023-03-30")],

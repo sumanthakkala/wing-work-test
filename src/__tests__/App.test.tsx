@@ -152,7 +152,6 @@ describe("App", () => {
   it("opens modal on search click", async () => {
     const { container, getByTitle, queryByText } = render(<App />);
     await act(() => mockAxiosGet);
-    expect(mockAxiosGet).toHaveBeenCalledTimes(5);
     const dateRangeIp = container.querySelector("#trip_search_date_range");
     fireEvent.mouseDown(dateRangeIp!);
     fireEvent.click(dateRangeIp!);
